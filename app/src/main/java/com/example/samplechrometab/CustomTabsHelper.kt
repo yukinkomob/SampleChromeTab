@@ -2,14 +2,11 @@ package com.example.samplechrometab
 
 import android.content.Context
 import android.content.Intent
-import android.content.IntentFilter
 import android.content.pm.PackageManager
-import android.content.pm.ResolveInfo
 import android.net.Uri
 import android.text.TextUtils
 import android.util.Log
 import androidx.browser.customtabs.CustomTabsService
-
 
 /**
  * Helper class for Custom Tabs.

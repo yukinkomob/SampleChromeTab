@@ -4,7 +4,6 @@ import android.content.ComponentName
 import android.graphics.Color
 import android.net.Uri
 import android.os.Bundle
-import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Button
@@ -61,27 +60,8 @@ class MainActivity : AppCompatActivity() {
                     override fun onNavigationEvent(navigationEvent: Int, extras: Bundle?) {
                         super.onNavigationEvent(navigationEvent, extras)
                     }
-                    //                    fun onNavigationEvent(navigationEvent: Int, extras: Bundle?) {
-//                        Log.w(TAG, "onNavigationEvent: Code = $navigationEvent")
-//                    }
                 })
             }
-            //            fun onCustomTabsServiceConnected(
-//                name: ComponentName?,
-//                client: CustomTabsClient?
-//            ) {
-//                // セッションを確立する
-//                mClient = client
-//                mCustomTabsSession = mClient.newSession(object : CustomTabsCallback() {
-//                    fun onNavigationEvent(navigationEvent: Int, extras: Bundle?) {
-//                        Log.w(TAG, "onNavigationEvent: Code = $navigationEvent")
-//                    }
-//                })
-//            }
-//
-//            fun onServiceDisconnected(name: ComponentName?) {
-//                mClient = null
-//            }
         }
 
         // バインドの開始
